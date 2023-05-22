@@ -11,36 +11,51 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <ul class="flex border-b">
+  <li class="-mb-px mr-1">
+    <a class="bg-white inline-block border-l border-t border-r rounded-t py-2 px-20 text-blue-700 font-semibold" href="/">Home</a>
+  </li>
+  <li class="mr-1">
+    <a class="bg-white inline-block py-2 px-4 text-blue-500 hover:text-blue-800 font-semibold" href="/jobs">Jobs</a>
+  </li>
+  <li class="mr-1">
+    <a class="bg-white inline-block py-2 px-4 text-blue-500 hover:text-blue-800 font-semibold" href="https://github.com/explore">Github</a>
+  </li>
+  <li class="mr-1">
+    <a class="bg-white inline-block py-2 px-4 text-gray-400 font-semibold" href="#">Secure Job</a>
+  </li>
+</ul>
+
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome 
         </h1>
 
-        <p className={styles.description}>
+        {/* <p className={styles.description}>
           Get started by editing{' '}
           <code className={styles.code}>pages/index.js</code>
-        </p>
+        </p> */}
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="/" className={styles.card}>
+            <h2>HOME &rarr;</h2>
+            <p>..................</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
+          {/* <a href="https://nextjs.org/learn" className={styles.card}>
             <h2>Learn &rarr;</h2>
             <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
+          </a> */}
 
           <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
+            href="/jobs"
             className={styles.card}
           >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <h2>JOBS &rarr;</h2>
+            <p>Discover various options available</p>
           </a>
 
-          <a
+          {/* <a
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
           >
@@ -48,7 +63,7 @@ export default function Home() {
             <p>
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
-          </a>
+          </a> */}
         </div>
       </main>
 
