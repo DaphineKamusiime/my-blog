@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 
 export const getStaticPaths = async () => {
@@ -78,7 +79,7 @@ const DetailedJobs = ({job}) => {
                 </div>
                 <a className="flex items-center text-gray-700" href="#">
                 <div className="avatar">
-                    <img 
+                    <Image 
                     className="flex-shrink-0 object-cover object-center w-24 h-24 rounded-full"
                     src={`http://127.0.0.1:1337${job.attributes.image.data.attributes.url}`}
                     alt={"Photo of " + job.attributes.recruiter} />

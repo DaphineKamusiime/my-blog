@@ -1,20 +1,21 @@
 // to fetch data
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 // import './pages/jobs/Home.module.css';
 
 <ul class="flex border-b">
 <li class="-mb-px mr-1">
-  <a class="bg-white inline-block border-l border-t border-r rounded-t py-2 px-20 text-blue-700 font-semibold" href="/">Home</a>
+  <Link class="bg-white inline-block border-l border-t border-r rounded-t py-2 px-20 text-blue-700 font-semibold" href="/">Home</Link>
 </li>
 <li class="mr-1">
-  <a class="bg-white inline-block py-2 px-4 text-blue-500 hover:text-blue-800 font-semibold" href="/jobs">Jobs</a>
+  <Link class="bg-white inline-block py-2 px-4 text-blue-500 hover:text-blue-800 font-semibold" href="/jobs">Jobs</Link>
 </li>
 <li class="mr-1">
-  <a class="bg-white inline-block py-2 px-4 text-blue-500 hover:text-blue-800 font-semibold" href="https://github.com/explore">Github</a>
+  <Link class="bg-white inline-block py-2 px-4 text-blue-500 hover:text-blue-800 font-semibold" href="https://github.com/explore">Github</Link>
 </li>
 <li class="mr-1">
-  <a class="bg-white inline-block py-2 px-4 text-gray-400 font-semibold" href="#">Secure Job</a>
+  <Link class="bg-white inline-block py-2 px-4 text-gray-400 font-semibold" href="#">Secure Job</Link>
 </li>
 </ul>
 
@@ -84,7 +85,7 @@ const JobPage = () => {
                   <Link href="#">
                     <div className="flex items-center text-gray-700 cursor-pointer">
                       <div className="avatar">
-                        <img
+                        <Image
                           className="flex-shrink-0 object-cover object-center w-12 h-12 rounded-full"
                           src={`http://localhost:1337${job.attributes.image.data.attributes.url}`}
                           alt={"Photo of " + job.attributes.recruiter}
