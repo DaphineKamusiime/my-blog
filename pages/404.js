@@ -21,7 +21,7 @@ const NotFound = () => {
           </p>
           <Link href="/">
             <span classNameName="mb-3 text-base font-medium text-gray-200">
-              The page you're looking for may have moved or no longer exists.
+              The page you'&apos;re looking for may have moved or no longer exists.
               Head back to our{" "}
               <span classNameName="underline text-indigo-500 cursor-pointer">
                 homepage
