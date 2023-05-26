@@ -10,7 +10,7 @@
 //                 <span className="ml-3 text-xl text-white">Secure Job</span>
 //             </div>
 //             <p className="mt-4 text-sm text-gray-50 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-indigo-800 sm:py-2 sm:mt-0">© 2022 Secure Job —
-//             <Link href="https://twitter.com/TreciaKS" className="ml-1 text-gray-300" rel="noopener noreferrer" target="_blank"></Link>
+//             <Link href="https://twitter.com/TreciaKS" className="ml-1 text-gray-300" rel="noopener noreferrer" target="_blank">@TreciaKS</Link>
 //             </p>
 //                 <span className="inline-flex justify-center mt-4 sm:ml-auto sm:mt-0 sm:justify-start">
 //                 <Link href= "#" className="ml-3 text-gray-800">
